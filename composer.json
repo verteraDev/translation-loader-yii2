@@ -1,0 +1,23 @@
+{
+    "name": "vertera-dev/translation-loader-yii2",
+    "description": "Translation loader for Yii2",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Dmytruk",
+            "email": "d.dmytruk@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2||^8.1",
+        "vertera-dev/translation-loader-code": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerteraDev\\TranslationLoader\\Yii2\\": "src/"
+        }
+    }
+}
